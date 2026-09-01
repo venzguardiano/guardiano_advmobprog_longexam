@@ -31,7 +31,7 @@ class Comment {
     );
   }
 
-  // Converts a Comment back into JSON, e.g. when sending a new comment to the API.
+  // Converts a Comment back into JSON, e.g. when saving locally or sending to API.
   Map<String, dynamic> toJson() {
     return {
       'id': id,
